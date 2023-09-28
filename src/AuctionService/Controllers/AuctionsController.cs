@@ -25,7 +25,6 @@ public class AuctionsController : ControllerBase
         _context = context;
         _mapper = mapper;
         _publishEndpoint = publishEndpoint;
-
     }
 
     [HttpGet]
